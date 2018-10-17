@@ -2,11 +2,11 @@
 title: Distributed Training with Parameter Server
 short_title: Parameter Server
 description: Deeplearning4j supports fast distributed training with Spark and a parameter server.
-category: Tuning & Training
-weight: 10
+category: Distributed Deep Learning
+weight: 12
 ---
 
-## Distributed training with gradients sharing
+# Distributed training with gradients sharing
 
 DeepLearning4j supports distributed training in the Apache Spark environment and [Aeron](https://github.com/real-logic/Aeron) for high performance inter-node communication outside of Spark. The idea is relatively simple: individual workers calculate gradients on their DataSets. 
 
